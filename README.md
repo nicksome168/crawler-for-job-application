@@ -26,7 +26,7 @@ pipenv run preprocess
 #output is named 'results.csv'
 ```
 
-### Bugs
+## Bugs
 I failed on crawling the product page due to the "Please varify you are a Human" anti-crawling mechanism. I have added User Agent, language, plugins, cookies, etc. Still, I always got redirected to the Google Captcha verification page.
 
 <p align="center"><img src="https://github.com/nicksome168/crawler-for-job-application/blob/master/src/fail.png"></p>
