@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+"certifi" = "*"
+"chardet" = "*"
+"idna" = "*"
+"pipfile" = "*"
+"requests" = "*"
+"urllib3" = "*"
+"beautifulsoup4" = "*"
+"lxml" = "*"
+fake-useragent = "*"
+selenium = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+scrape = "python main.py"
+preprocess = "python extract.py
