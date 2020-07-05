@@ -56,4 +56,4 @@ time.sleep(2)
 elem.click()
 #FAILED
 
-driver.close()
+# driver.close()
